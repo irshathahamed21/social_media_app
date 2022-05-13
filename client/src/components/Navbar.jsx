@@ -33,9 +33,7 @@ function Navbar({searchTerm, setSearchTerm, user}) {
         <Link
         to = "/create-pin"
         className="bg-black flex items-center justify-center rounded-lg text-white w-12 h-12 md:w-14 md:h-12" >
-          <img src={user.image} alt="user-pic"
-          className='w-14 h-12 rounded-lg' />
-          <IoMdAdd/>
+          <IoMdAdd  className='w-14 h-12 rounded-lg'/>
         </Link>
 
       </div>
