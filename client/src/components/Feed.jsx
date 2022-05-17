@@ -7,7 +7,7 @@ import Spinner from './Spinner';
 
 function Feed() {
   const[pins, setPins] = useState()
-  const[loadinf, setLoading] = useState(false)
+  const[loading, setLoading] = useState(false)
   const {categoryId} = useParams()
   useEffect(() => {
     if (categoryId) {
